@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest Login</title>
+  <style>
+    /* *{
+      border: 1px solid red;
+    } */
+    .Pinterest {
+      text-align: center;
+    }
+    .login {
+      width: 25vw; /* Increased width for better display */
+      height: 30vh;
+      margin-left: auto;
+      margin-right: auto; /* Center the form horizontally */
+      font-family: sans-serif;
+      border: 1px rgb(204, 0, 0) solid; /* Red border for Pinterest theme */
+      border-radius: 5px;
+      padding: 10%;
+    }
+    .login p .login-button {
+      width: 100%; /* Button takes full width */
+      background-color: rgb(204, 0, 0); /* Red button color */
+      padding: 15px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: white; /* White text for button */
+      border: none; /* Remove button border */
+      border-radius: 5px;
+      cursor: pointer; /* Indicate clickable element */
+    }
+    .login p {
+      margin-bottom: 15px; /* Add spacing between elements */
+    }
+    .login h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <img src="https://images.ctfassets.net/h67z7i6sbjau/5zteWRcC1qbgLZoClcMmYl/a0391fdc321eddce7de41152108723b5/Brand_Guidelines_hero_2x.jpg?fm=webp&q=85" alt="Pinterest Logo" width="20%">
+  </center>
+  <div class="login">
+    <h1>Welcome to Pinterest</h1>
+    <p>
+      <label for="email">Email</label>
+    </p>
+    <p>
+      <input type="email" id="email" required>
+    </p>
+    <p>
+      <label for="password">Password</label>
+    </p>
+    <p>
+      <input type="password" id="password" required>
+    </p>
+    <p>
+      <button class="login-button">Log in</button>
+    </p>
+    <p>
+      <a href="#">Forgot password?</a>
+    </p>
+    <p>
+      New to Pinterest? <a href="#">Sign up</a>
+    </p>
+  </div>
+</body>
+</html>
